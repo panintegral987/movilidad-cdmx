@@ -1,0 +1,29 @@
+body {
+    background: rgb(255, 255, 255);
+    color: rgb(230, 139, 19);
+  font-family: "geologica-variable",sans-serif;
+  font-variation-settings: 'wght' 100, 'CRSV' 0, 'SHRP' 0, 'slnt' 0;
+}
+
+
+a {
+    color: inherit;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: "totalblack-variable", sans-serif;
+font-variation-settings: "wght" 1000;
+    margin: 0.5em 0;
+    color: violet;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 0.5em 0;
+    color: rgb(230, 139, 19);
+  font-family: "geologica-variable",sans-serif;
+  font-variation-settings: 'wght' 623, 'CRSV' 0, 'SHRP' 100, 'slnt' -12;
+}
+}
+

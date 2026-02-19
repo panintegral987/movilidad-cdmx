@@ -1,29 +1,49 @@
+:root {
+    --text-color: rgb(230, 139, 19);
+    --bg-color: rgb(255, 255, 255);
+    --accent-color: rgb(255, 0, 255);
+    --title-font: "totalblack-variable", sans-serif;
+    --body-font: "geologica-variable", sans-serif;
+
+
 body {
-    background: rgb(255, 255, 255);
-    color: rgb(230, 139, 19);
-  font-family: "geologica-variable",sans-serif;
+    background: var(--bg-color);
+    color: var(--text-color);
+  font-family: var(--body-font);
   font-variation-settings: 'wght' 100, 'CRSV' 0, 'SHRP' 0, 'slnt' 0;
+  font-size: 1rem;
 }
 
 
 a {
     color: inherit;
 }
-
+h1, h2, h3 {
+color: var(--text-color);
+  font-family: var(--title-font);
+}
 h1 {
     font-size: 5em;
-    font-family: "totalblack-variable", sans-serif;
-font-variation-settings: "wght" 1000;
+    font-variation-settings: "wght" 1000;
     margin: 0.5em 0;
-    color: violet;
+    color: var(--accent-color);
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 4em;
     margin: 0.5em 0;
-    color: rgb(230, 139, 19);
-  font-family: "geologica-variable",sans-serif;
   font-variation-settings: 'wght' 623, 'CRSV' 0, 'SHRP' 100, 'slnt' -12;
 }
+h3 {
+    font-size: 2em;
+    margin: 0.5em 0;
+  font-variation-settings: 'wght' 623, 'CRSV' 0, 'SHRP' 100, 'slnt' -12;
 }
-
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: var(--accent-color);
+    color: var(--bg-color);
+    font-family: var(--body-font);
+    font-variation-settings: 'wght' 100, 'CRSV' 0, 'SHRP' 0, 'slnt' 0;
+}

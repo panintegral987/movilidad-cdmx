@@ -8,6 +8,15 @@
 
 html {
     font-size: 14px;
+    scroll-behavior: smooth;
+}
+main {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+p {
+max-width: 60ch;
 }
 
 body {
@@ -51,14 +60,16 @@ footer {
     font-family: var(--body-font);
     font-variation-settings: 'wght' 100, 'CRSV' 0, 'SHRP' 0, 'slnt' 0;
 }
-p {
-    max-width: 60ch;
-}
+
 a {
     color: var(--accent-color);
     text-decoration: none;
+    font-variation-settings: 'wght' 100, 'CRSV' 0, 'SHRP' 0, 'slnt' 0;
+
+
 }
 
 a:hover {
     text-decoration: underline;
+    font-variation-settings: 'wght' 250, 'CRSV' 1, 'SHRP' 100, 'slnt' -7;
 }
